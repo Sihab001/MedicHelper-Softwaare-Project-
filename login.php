@@ -26,3 +26,67 @@
         }
     }
 ?>
+<html>
+<head>
+    
+<title>insert from data in mysql database using php</title>
+    <style type="text/css">
+        table {front font-size: 30px; margin-left: 25%;margin-top:-40%} 
+        input,textarea{front-size :30px;}
+    </style>
+</head>
+<body>
+
+<form action="verifylogin.php"  method="post">
+			Patient Username: <input type="text" placeholder="User Name Here" id="uname" name="uname">
+			<br/>
+			Patient Password: <input type="password" id="pass" name="pass">
+			<br/>
+			<input type="submit" value="Log In" name="submit">
+		</form>
+
+<br/><br/><br/><br/>
+    <form action="" method ="post">
+
+    <table>
+        <tr>
+            <th></th>
+            <th><h2>For New Patient Registration</h2></th>
+        </tr>
+        <tr>
+            <td>Name:</td>
+            <td><input autocomplete="off" type ="text" name ="name"></td>
+        </tr>
+        <tr>
+            <td> User Name:</td>
+            <td><input autocomplete="off" type ="text" name ="username"></td>
+        </tr>
+        <tr>
+            <td>Mobile Number:</td>
+            <td><input autocomplete="off" type ="text" name ="contact"></td>
+        </tr>
+        <tr>
+            <td> Bloodgroup:</td>
+            <td><input autocomplete="off" type ="text" name ="blood_group"></td>
+        </tr>
+        <tr>
+            <td> Weight:</td>
+            <td><input autocomplete="off" type ="number" name ="weight"></td>
+        </tr>
+	<tr>
+            <td> Password:</td>
+            <td><input type ="password" name ="password"></td>
+        </tr>
+        <tr>
+            <td>Category</td>
+            <td><inp</td>
+        </tr>
+<tr>
+      <input type="submit" name="submit" style="background-color:white;
+margin-left:25%;margin-right:auto;display:block;margin-top:20%;margin-bottom:-20%" value="Patient Sign Up">
+
+</tr>        
+ </table> </form>
+    
+ </body>
+</html>
