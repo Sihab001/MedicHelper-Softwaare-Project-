@@ -12,7 +12,17 @@
         $contact = $_POST["contact"];
         $blood_group = $_POST["blood_group"];
         $weight = $_POST["weight"];
-
+        
+        $userquery= "insert into patient(Name, p_id, Age, Contact, Weight, Blood_Group, username, password, bookingb_id)
+                                values('$name','','','$contact','$weight','$blood_group', '$username','$password','')";
+            //echo $userquery;
+        $returnvalue = $conn->prepare($userquery);
+        
+        $result = $returnvalue->execute();
+        
+        if($result){
+            echo "Successfully registered";
+        }
         }
     }
 ?>
