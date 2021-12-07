@@ -90,3 +90,14 @@ margin-left:25%;margin-right:auto;display:block;margin-top:20%;margin-bottom:-20
     
  </body>
 </html>
+
+<html>
+<head>
+    
+<title>insert from data in mysql database using php</title>
+    <style type="text/css">
+        table {front font-size: 30px; margin-left: 15%;margin-top:-10%} 
+        input,textarea{front-size :30px;}
+    </style>
+</head>
+<body>
