@@ -1,0 +1,26 @@
+body{
+    background-color: blueviolet;
+}
+.part1 h1{
+
+text-align: center;
+
+}
+.Mid {
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+    align-items: center;
+    background-color: aqua;
+
+    
+    
+}
+
+.Mid button{
+    height: 100px;
+    width: 200px;
+    
+    text-align: center;
+}
+
