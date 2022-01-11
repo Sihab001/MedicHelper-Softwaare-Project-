@@ -1,5 +1,5 @@
 body{
-    background-color: blueviolet;
+    background-color: lightseagreen;
 }
 .part1 h1{
 
@@ -8,19 +8,25 @@ text-align: center;
 }
 .Mid {
     display: flex;
-    justify-content:space-between;
+    justify-content:center;
     flex-direction: column;
     align-items: center;
     background-color: aqua;
-
+    width: 500px;
     
-    
+    margin-left: 500px;
 }
 
 .Mid button{
-    height: 100px;
-    width: 200px;
-    
+    height: 80px;
+    width: 400px;
+    background-color: lightslategray;
     text-align: center;
+    border-radius: 20px;
+    color: linen;
+    
 }
 
+button:hover {
+    background-color: lightsteelblue;
+  }

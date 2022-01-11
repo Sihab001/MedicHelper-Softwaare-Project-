@@ -1,3 +1,28 @@
+<?php
+include "pdo.php";
+$name = $_POST["name"];
+        $category = $_POST["category"];
+	    $shedule = $_POST["shedule"];
+        $contact = $_POST["fee"];
+        $location = $_POST["location"];
+        $fee = $_POST['fee'];
+        $time= $_POST['time'];
+        
+        $userquery= "insert into doctor(`Name`, `d_id`, `Category`, `Shedule`, `Fee`, `location`, `time`) 
+                                values('$name','', '$category','$shedule','$fee','$location','$time')";
+            //echo $userquery;
+        
+        $returnvalue = $conn->prepare($userquery);
+        
+        $result = $returnvalue->execute();
+        
+        if($result){
+            echo "Successfully registered";
+        }
+        
+
+    
+    ?>
 <html>
 <head>
     
