@@ -1,0 +1,6 @@
+git init
+git add .
+git commit -m"Database Correction"
+git branch -M zahid
+git remote add origin https://github.com/Sihab001/MedicHelper-Softwaare-Project-.git
+git push -u origin zahid
